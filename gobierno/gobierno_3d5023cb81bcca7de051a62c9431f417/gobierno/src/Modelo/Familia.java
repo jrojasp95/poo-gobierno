@@ -15,7 +15,7 @@ public class Familia {
  public Familia(Persona p, Persona per[], int cp){
      this.p=p;
      personas =new Persona[cp];
-     beneficiada=true;
+     beneficiada=false;
     }
 
     public Persona getP() {
